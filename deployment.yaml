@@ -19,10 +19,6 @@ spec:
       containers:
       - name: demo-app
         image: 552182293274.dkr.ecr.us-east-1.amazonaws.com/sample-web-app:1.0
-        resources:
-          requests:
-            cpu: 100m
-            memory: 100Mi
         env:
         - name: GET_HOSTS_FROM
           value: dns
