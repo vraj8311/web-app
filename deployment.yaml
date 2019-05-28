@@ -28,6 +28,5 @@ spec:
           # does not have a built-in DNS service, you can instead
           # access an environment variable to find the master
           # service's host. To do so, comment out the 'value: dns' line above, and
-          # uncomment
         ports:
         - containerPort: 8080
